@@ -1,0 +1,57 @@
+Inheritance:
+    It is one of the main pillars of Object oriented programing.
+    It allows one class to acquire the fields and the properties of
+    another class.
+
+Why should we use Inheritance:
+    It helps us save a lot of code repetition.
+
+Rules:
+    1) All the private members (instance vars, method)
+    Can't be used through inheritance.
+    2) Private members of a superclass/base/Parent are not inherited by the
+    subclass
+    3) Members that have default accessibility in the superclass are also
+      not inherited by subclasses in other packages, as these members are
+      only accessible by their simple names in subclasses within the same
+      package as the superclass.
+    4) Since constructors blocks are not members of a class, they are not
+    inherited by a subclass.
+    5) A subclass can extend only one superclass directly at the same
+      level
+
+Types of Inheritance:
+    1) Single Inheritance:
+        Only one parent and one child class
+    2) Hierarchical inheritance:
+        When a class has more than one child classes
+    (sub classes) or in other words more than one child classes have the
+    same parent class.
+    3) Multilevel inheritance:
+        In Multilevel inheritances there exists single base class,
+        single derived class and multiple intermediate base classes.
+        Example: Vehicle Class --> Car Class --> BMW X5 Class
+                 base class   intermediate base class   derived class
+
+Advantages:
+    Code re-usability:
+        the same methods and variables which are defined in a
+        parent/super/base class can be used in the child/sub/derived
+        class.
+    Application performance is enhanced (improved).
+    Redundancy (repetition) of the code is reduced or
+    minimized so that we get consistent results and
+    less storage cost.
+
+Disadvantages:
+    The main disadvantage of using inheritance is that the two
+    classes (parent and child class) get tightly coupled.
+    This means that if we change the code of parent class, it will
+    affect to all the child classes which are inheriting/deriving
+    the parent class, and hence, it cannot be independent of each
+    other.
+
+
+
+
+

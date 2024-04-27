@@ -1,0 +1,38 @@
+List:
+    1) Insertion order is maintained.
+    2) Duplicates are allowed
+
+ArrayList:
+    Upside: Very fast when accessing the elements.
+    Downside: Really slow when we have to add or remove data from the
+    ArrayList
+
+LinkedList:
+    Upside: Really fast when we have to add or remove data from the
+    list.
+    Downside: Very slow when accessing the elements.
+
+Set:
+    1) They don't allow duplicates.
+    2) They don't store the data based on index.
+
+HashSet:
+    Upside:
+        It's fast.
+    Downside:
+        It does not remember the insertion order.
+
+LinkedHashSet:
+    Upside:
+        it remembers the order.
+    Downside:
+        It's a little slower than the HashSet.
+
+TreeSet:
+    Upside:
+        It keeps data sorted.
+    Downside:
+        Insertion is very, very slow.
+
+
+

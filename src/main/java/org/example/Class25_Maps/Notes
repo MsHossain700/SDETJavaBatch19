@@ -1,0 +1,29 @@
+Maps:
+    Maps allow us to store two things at a time. One is called the
+    key and the other is called the value.
+    There are three main types of maps:
+        1) HashMap
+        2) LinkedHashMap
+        3) TreeMap
+
+HashMap:
+    Upside:
+        It's fast.
+    Downside:
+        It does not remember the insertion order.
+
+LinkedHashMap:
+    Upside:
+        it remembers the order.
+    Downside:
+        It's a little slower than the HashMap.
+
+TreeMap:
+    Upside:
+        It keeps data sorted.
+    Downside:
+        Insertion is very, very slow.
+
+
+
+

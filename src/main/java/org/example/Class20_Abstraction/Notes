@@ -1,0 +1,34 @@
+Abstraction:
+    Abstraction allows us to pay attention to the functionality
+    instead of implementation details
+
+Why should we use Abstraction?
+    1) We can make sure that everybody is on the same page.
+    2) We can focus only on those parts which we are supposed to do
+    and let others worry about the rest.
+
+
+Interview Questions:
+
+Can we create the object of the abstract class:
+    No it is not allowed as we might have some unimplemented
+    methods in abstract in abstract classes.
+
+Can we have instance variables in the abstract class?
+    Yes we can because there might be child classes that might
+    want to use them.
+
+Can we have final keyword in abstract class:
+    No because these two keywords have conflicting purposes and
+    functionalities.
+
+Can we make abstract class private:
+    No, you cannot declare an abstract class as private because
+    subclass/child class
+
+Can we make abstract class protected:
+    Yes, because child classes can still access it.
+    Default and public access modifiers are permitted too.
+
+Can we have static methods in abstract classes:
+    Yes. We can call them directly by their name.

@@ -1,0 +1,125 @@
+What is Method Overloading?
+    When we have multiple methods with the same name but with different
+    parameters in the same class it's called Method Overloading.
+
+Why should we overload method?
+    Whenever we need to create multiple methods to handle different data
+    types we don't need to give them new names we can use the same name
+    for those methods which creates a seamless experience, for example,
+     the System.out.println can be used to print the value of any data type.
+
+Rules:
+    1) We can only overload by changing parameter.
+    2) Changing the access modifiers or the return types or the static
+    keyword or final keyword is not going to play in overloading.
+    3) We can change the parameter three ways.
+        By changing the name of parameter.
+        By changing the data types of parameter.
+        By changing the sequence of parameter.
+____________________________________________________________________________
+
+What is Method Overriding?
+    When we have the same name method in parent and child class but different
+    logic, it's called method overriding.
+
+Why should we override methods?
+    if the child class does not like the implementation of the parent class
+    it has the flexibility.
+
+Rules:
+    1) The header of the method that we are overriding should be same as the
+    header of the method in parent class
+    2) We cannot override the static methods.
+    3) private methods can't be overridden.
+    4) Constructors can't be overridden.
+____________________________________________________________________________
+
+What is Polymorphism?
+    It allows us to write dynamic code. Same method when called using
+    different object behaves differently.
+
+Why should we use Polymorphism:
+    It helps us avoid code repetition if we are performing the same
+    operation in a different way we do not need to copy and paste the entire
+    code we can use Polymorphism.
+
+Rules:
+    1) We must have a common parent either a class or an interface.
+    2) Without overriding methods, Polymorphism is not possible.
+____________________________________________________________________________
+
+"Final" keyword:
+    There are 3 uses of the Final keyword
+        1) When used with a variable once the value to variable is assigned,
+        it can't be changed.
+        2) When used with a method no child class will be able to override
+        that method
+        3) When used with a class no other class will be able to inherit
+        from that class.
+___________________________________________________________________________
+
+Abstraction:
+    Abstraction allows simplifying coding. We can use Abstraction to focus
+    on the functionality instead of the implementation.
+
+Why use abstraction:
+    It helps us write modular code and help us keep everyone on the same
+    page.
+
+Rules:
+    1) We cannot have body with abstract methods.
+    2) We cannot use the Final keyword with abstract methods. The Final
+       keyword is used to indicate that a method or variable cannot be
+       overridden or modified by subclasses or further extended in the
+       case of classes.
+    3) Private keyword cannot be used with abstract methods.
+    4) Static keyword is not allowed as we can't override static method.
+    5) We cannot create the object of abstract class.
+___________________________________________________________________________
+
+Interface:
+    They are very similar to classes but can only have public static final
+    variables and all the methods by default are abstract.
+
+Rules:
+    1) We cannot have instance instance variables.
+    2) We cannot have constructors.
+    3) We cannot create the object of interfaces
+    4) We can't have instance methods.
+
+How do we know when to use interface and when to use an abstract class?
+    interface - when we don't want to have inheritance
+___________________________________________________________________________
+
+Encapsulation:
+    Encapsulation says make your fields private and create getter setter methods.
+Why Encapsulation?
+    It helps us write secure code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

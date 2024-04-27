@@ -1,0 +1,17 @@
+Methods is JAVA
+    Methods are block of code that do something when we call them.
+    They can take input (arguments/parameters) and they can also
+    return data back.
+
+Why should we use methods:
+    Method help us save code repetition in multiple classes.
+
+Syntax of Method:
+    return type (void,String,Boolean) nameOfMethod(Parameters){
+    }
+
+Example:
+
+    void add (int a , int b){
+    System.out.println(a + b);
+    }

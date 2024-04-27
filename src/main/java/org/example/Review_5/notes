@@ -1,0 +1,29 @@
+Nested Loop:
+    Nested Loop is a loop inside another loop.
+    We can nest any loop inside any other loop
+Why should we learn about Nested loop?
+    Wee need nested loops to go through multiple level of data for
+    example, we might want to go through the main categories of items,
+    and we might want to go through individual items in each list.
+    We also need Nested loops to process data which have multiple levels
+    like a 2D array or an Excel sheet
+2D Array:
+    2D array is basically a collection of multiple 1D arrays
+Why should we lean about 2D arrays:
+    when we want to process the information which is present in both
+    rows and columns
+OOPS:
+    Object Oriented Programing
+    It is just a way of writing code. many techniques to write large
+    amounts of code.
+Why should we lean OOPS?
+    It helps us write large amounts of code easily
+    1) It helps us reduce the code duplication.
+    2) It helps us write dynamic code (same code doing different things)
+    (Polymorphism)
+    3) It helps us write Modular code. (abstraction)
+    4) It helps us write secure code. (encapsulation)
+Class:
+    A Class represents a group of entities with similar attributes and
+    behaviors.
+

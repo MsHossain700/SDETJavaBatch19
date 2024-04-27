@@ -1,0 +1,18 @@
+what is OOps?
+    -OOPs stands for object oriented programing.
+    -It is just a way of writing code. many techniques to write large
+amounts of code.
+Why should we lean OOPS?
+    1) It helps us reduce the code duplication.
+    2) It helps us write dynamic code (same code doing different things)
+    (Polymorphism)
+    3) It helps us write Modular code. (abstraction)
+    4) It helps us write secure code. (encapsulation)
+Class:
+    A class is a user defined blueprint from which objects are created.
+    A class represents objects which have similar properties and
+    behaviors. we use these  classes to create things quickly and efficiently.
+    It's like a design/blueprint that helps us build objects quickly.
+
+
+
